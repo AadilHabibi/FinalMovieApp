@@ -1,0 +1,11 @@
+{
+    "name": "flickpicksapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "cd ExpressAPI && node index.js",
+      "heroku-postbuild": "cd WebApp && npm install && npm run build",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
